@@ -101,12 +101,12 @@ intro_up = \drummode {
 
 	\tag_ATHREE
 	\repeat volta 2 {
-		cymc8[ hh] hh[ hh] hh[ hh] hh[ hh]
-		hh8[ hh] hh[ hh] hh[ hh] hh[ hh]
+		cymc8[ hh] hh[ hh16 hhho] hh8[ hh] hh[ hh16 hhho]
+		hh8[ hh] hh[ hh16 hhho] hh8[ hh] hh[ hh16 hhho]
 	}
 	\alternative {
 		{ hh8[ hh] hh[ hh] cymc[ cymc] s4 | \time 2/4 cymc8[ cymc] s4 \time 4/4 }
-		{ hh8[ hh] hh[ hh] hh[ hh] hh[ hh] | hh8[ hh] hh[ hhho] s cymc cymc[ cymc] }
+		{ hh8[ hh] hh[ hh16 hhho] hh8[ hh] hh[ hh16 hhho] | hh8[ hh] hh[ hhho] s cymc cymc[ cymc] }
 	}
 
 	\tag_TENOR
@@ -124,10 +124,10 @@ intro_up = \drummode {
 
 	\tag_TRB
 	\repeat volta 4 {
-		hh8[ hh] hh[ hh] hh[ hh] hh[ hh]
+		hh8[ hh] hh[ hh] hh[ hhho] hh[ hh]
 	}
 	\alternative {
-		{ hh8[ hh] hh[ hh] hh[ hh] hh[ hh] }
+		{ hh8[ hh] hh[ hh] hh[ hhho] hh[ hh] }
 		{ hh4 hh hh s }
 	}
 
@@ -138,18 +138,18 @@ intro_up = \drummode {
 	hh8[ hh] hh[ hh] hh[ hh] hh16[ hhho8.]
 
 	\tag_FONE
-	cymc8[ hh16 hh] hhho8[ hh16 hh] hhho8[ hh16 hh] hhho8[ hh16 hh]
-	hhho8[ hh16 hh] hhho8[ hh16 hh] hhho8[ hh16 hh] hhho8[ hh16 hh]
-	hhho8[ hh16 hh] hhho8[ hh16 hh] hhho8[ hh16 hh] hhho8[ hh16 hh]
+	cymc8[ hh16 hh] hhho8[ hh16 hh] hh8[ hh16 hh] hhho8[ hh16 hh]
+	hh8[ hh16 hh] hhho8[ hh16 hh] hh8[ hh16 hh] hhho8[ hh16 hh]
+	hh8[ hh16 hh] hhho8[ hh16 hh] hh8[ hh16 hh] hhho8[ hh16 bd]
 	\acciaccatura { sn8 } sn8[ sn16 sn] sn[ sn sn sn] sn[ sn sn sn] sn[ sn sn sn]
 
 	\tag_FTWO
 	\repeat volta 2 {
-		hh8[ hh] hh[ hh]  hh[ hh]  hh[ hh]
-		hh8[ hh] hh[ hh]  hh[ hh]  hh[ hh]
+		hh8[ hh] hh[ hh]  hh[ hh]  hh[ hh16 hh]
+		hh8[ hh] hh[ hh]  hh[ hh]  hh[ hh16 hh]
 	}
 	\alternative {
-		{ hh8[ hh] hh[ hh]  hh[ hh]  hh[ hh] | hh8[ hh] hh[ hh]  hh[ hh]  hh[ hh] }
+		{ hh8[ hh] hh[ hh]  hh[ hh]  hh[ hh16 hh] | hh8[ hh] hh[ hh]  hh[ hh]  hh[ hh16 hh] }
 		{ hh8[ hh] sn16[ sn sn sn] hh8[ hh] hh[ hh] | hh8[ hh] hh[ hh] hh[ hh] sn16[ sn hightom8] }
 	}
 	\repeat volta 2 {
@@ -182,7 +182,7 @@ intro_up = \drummode {
 	\tag_OUTRO
 	cymc8[ cymc] hh[ hh] hh[ hh] hh[ hh]
 	cymc8[ cymc] hh[ hh] hh[ hh] sn8[ sn16 sn]
-	sn8[ bd] <cymc sn>4 r2
+	sn8[ bd] <cymc bd>4 r2
 
 	\bar "||"
 }
@@ -199,8 +199,8 @@ intro_down = \drummode {
 		bd8[ bd] sn8.[ sidestick16] bd16[ sidestick bd8] sn8.[ sidestick16]
 	}
 	\alternative {
-		{ bd16[ sidestick bd8] sn8.[ sidestick16] bd16[ sidestick bd8] sn8.[ sidestick16] }
-		{ bd16[ sidestick bd8] sn8.[ sidestick16] s4 s }
+		{ bd16[ sidestick bd8] sn8.[ sidestick16] r16 sidestick[ bd8] sn8.[ sidestick16] }
+		{ bd16[ sidestick bd8] sn8.[ bd16] s4 s }
 	}
 	\repeat volta 2 {
 		<sn bd>4 sn sn sn
@@ -211,7 +211,7 @@ intro_down = \drummode {
 	}
 	\repeat volta 2 {
 		bd8[ bd] sn8.[ sidestick16] bd16[ sidestick bd8] sn8.[ sidestick16]
-		bd16[ sidestick bd8] sn8.[ sidestick16] bd16[ sidestick bd8] sn8[ bd]
+		bd16[ sidestick bd8] sn8.[ sidestick16] bd8[ bd] sn8[ bd]
 		bd16[ sidestick bd8] sn8.[ sidestick16] bd16[ sidestick bd8] sn8.[ sidestick16]
 	}
 	\alternative {
@@ -225,7 +225,7 @@ intro_down = \drummode {
 		{ sn4 sn sn8[ bd] sn[ bd] }
 	}
 	bd4 bd8[ bd] bd[ bd] bd[ bd]
-	bd8.[ bd16] sn8[ bd16 bd] sn8[ bd] s4
+	bd8[ bd] sn8[ bd16 bd] sn8[ bd] s4
 	\repeat volta 3 {
 		bd4 sn bd8[ bd] sn[ bd]
 	}
@@ -234,8 +234,8 @@ intro_down = \drummode {
 		{ bd16[ sn bd bd] sn8[ bd] s4 s }
 	}
 	\repeat volta 2 {
-		bd8[ bd] sn8.[ sidestick16] bd16[ sidestick bd8] sn8.[ sidestick16]
-		bd16[ sidestick bd8] sn8.[ sidestick16] bd16[ sidestick bd8] sn8.[ sidestick16]
+		bd8[ bd] sn4 bd16[ sidestick bd8] sn4
+		bd16[ sidestick bd8] sn4 r16 sidestick[ bd8] sn4
 	}
 	\alternative {
 		{ bd16[ sidestick bd8] sn8.[ sidestick16] bd8[ bd] sn16[ sn sn8] | \time 2/4 bd8[ bd] sn[ sn16 sn] \time 4/4 }
@@ -263,9 +263,9 @@ intro_down = \drummode {
 	bd4 sn8.[ bd16] r8 bd r sn
 	bd8[ bd] sn8.[ bd16] r8 bd r sn
 	bd16[ sn8 bd16] sn8[ bd16 bd] r16 sn16[ bd8] sn16[ bd8.]
-	bd4 r bd r
-	bd4 r bd r
-	bd4 r bd r
+	bd4 r r r
+	bd4 r r r
+	bd4 r r r
 	bd4 s2.
 
 	\repeat volta 2 {
