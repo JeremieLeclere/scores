@@ -320,6 +320,7 @@ line_down = \drummode {
 \header {
     title = "Ground"
     composer = "Electro Deluxe"
+    tagline = "Transcription by Jeremie LECLERE"
 }
 
 \score {

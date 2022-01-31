@@ -337,6 +337,7 @@ line_down = \drummode {
 \header {
     title = "Uptown Funk"
     composer = "Tim Ayers & The Smoking Section"
+    tagline = "Transcription by Jeremie LECLERE"
 }
 
 \score {

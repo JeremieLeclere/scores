@@ -254,6 +254,7 @@ line_down = \drummode {
 \header {
     title = "All Rise"
     composer = "The Northern Governors"
+    tagline = "Transcription by Jeremie LECLERE"
 }
 
 \score {
